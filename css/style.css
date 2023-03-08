@@ -1,4 +1,6 @@
-
+body {
+ font-family: sans-serif;
+}
 /* Add WA floating button CSS */
 .floating {
  position: fixed;
