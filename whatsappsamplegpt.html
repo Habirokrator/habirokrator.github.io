@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Floating WhatsApp Icon</title>
+	<style>
+		/* Styling for the WhatsApp icon */
+		.whatsapp-icon {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			background-color: #25D366;
+			color: #fff;
+			padding: 10px 15px;
+			border-radius: 50%;
+			font-size: 20px;
+			cursor: pointer;
+			z-index: 9999;
+		}
+		
+		/* Styling for the WhatsApp icon on hover */
+		.whatsapp-icon:hover {
+			background-color: #128C7E;
+		}
+		
+		/* Styling for the WhatsApp icon on mobile devices */
+		@media only screen and (max-width: 600px) {
+			.whatsapp-icon {
+				bottom: 10px;
+				right: 10px;
+				font-size: 16px;
+				padding: 8px 12px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- WhatsApp icon -->
+	<a href="https://api.whatsapp.com/send?phone=+13026482641" target="_blank" rel="noopener" class="whatsapp-icon">
+		<i class="fab fa-whatsapp"></i>
+	</a>
+	
+	<!-- Font Awesome icons (used for the WhatsApp icon) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-qM+/UoI+LdN09qc2vKGVyON6/4BG6v21ej6xiH+X9ZU6StZ/s5v5+s0H5FLJr0/5rDeUjK0cAJf1O3m+kZFlJg==" crossorigin="anonymous" />
+</body>
+</html>
