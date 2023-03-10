@@ -2,22 +2,25 @@ body {
  font-family: sans-serif;
  background-color: #89CFF0;
 }
-/* Add WA floating button CSS */
-.floating {
- position: fixed;
- width: 180px;
- height: 180px;
- bottom: 40px;
- right: 40px;
- background-color: #25d366;
- color: #fff;
- border-radius: 50px;
- text-align: center;
- font-size: 30px;
- box-shadow: 2px 2px 3px #999;
- z-index: 100;
-}
 
-.fab-icon {
- margin-top: 16px;
-}
+/* Styling for the WhatsApp icon */
+		.whatsapp-icon {
+			position: fixed;
+			bottom: 30%;
+			right: 20%;
+			background-color: #25D366;
+			color: #fff;
+			padding: 20px 20px;
+			border-radius: 50%;
+			font-size: 30px;
+			cursor: pointer;
+			z-index: 9999;
+		}
+
+
+
+
+		/* Styling for the WhatsApp icon on hover */
+		.whatsapp-icon:hover {
+			background-color: #128C7E;
+		}
