@@ -3,7 +3,7 @@
 <head>
 	<title>Floating WhatsApp Icon</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Font Awesome icons (used for the WhatsApp icon) -->
+	<!-- Font Awesome icons (used for the WhatsApp icon) -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		/* Styling for the WhatsApp icon */
@@ -13,38 +13,40 @@
 			right: 20%;
 			background-color: #25D366;
 			color: #fff;
-			padding: 20px 20px;
+			padding: 20px;
 			border-radius: 50%;
 			font-size: 30px;
 			cursor: pointer;
 			z-index: 9999;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			height: 70px;
 			width: 70px;
 		}
 
-	/* Styling for the WhatsApp icon on hover */
-	.whatsapp-icon:hover {
-		background-color: #128C7E;
-	}
-	
-	/* Styling for the WhatsApp icon on mobile devices 
-	@media only screen and (max-width: 480px) {
-		.whatsapp-icon {
-			bottom: 10px;
-			right: 10px;
-			font-size: 16px;
-			padding: 8px 12px;
-			height: 40px;
-			width: 40px;
+		/* Styling for the WhatsApp icon on hover */
+		.whatsapp-icon:hover {
+			background-color: #128C7E;
 		}
-	}*/
-   </style>
+
+		/* Styling for the WhatsApp icon on mobile devices */
+		@media only screen and (max-width: 480px) {
+			.whatsapp-icon {
+				bottom: 10px;
+				right: 10px;
+				font-size: 16px;
+				padding: 10px;
+				height: 40px;
+				width: 40px;
+			}
+		}
+	</style>
 </head>
 <body>
 	<!-- WhatsApp icon -->
 	<a href="https://api.whatsapp.com/send?phone=13026482641" target="_blank" rel="noopener" class="whatsapp-icon">
 		<i class="fa fa-whatsapp"></i>
 	</a>
-	
 </body>
 </html>
