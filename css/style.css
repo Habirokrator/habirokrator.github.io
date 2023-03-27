@@ -9,16 +9,16 @@
 	position: fixed;
 	bottom: 30%;
 	right: 7%;
-	background-color: #25D366;
-	color: #fff;
+	/*background-color: #25D366;*/
+	/*color: #fff;
 	padding: 20px;
 	border-radius: 50%;
-	font-size: 40px;
+	font-size: 40px; */
 	cursor: pointer;
 	z-index: 9999;
-	height: 80px; /* Add this line */
-	width: 80px; /* Add this line */
-	line-height: 80px; /* Add this line */
+	/* height: 80px;  Add this line */
+	/* width: 80px;  Add this line */
+	/* line-height: 80px; Add this line */
 }
 
 
