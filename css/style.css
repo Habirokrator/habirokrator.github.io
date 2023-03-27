@@ -15,7 +15,10 @@
 			font-size: 30px;
 			cursor: pointer;
 			z-index: 9999;
-		}
+	  		height: 80px; /* Add this line */
+  			width: 80px; /* Add this line */
+}
+
 
 
 
