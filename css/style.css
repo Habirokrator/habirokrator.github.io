@@ -1,6 +1,7 @@
 .blue {
  font-family: sans-serif;
  background-color: #89CFF0;
+ z-index: -9999;
 }
 
 /* Styling for the WhatsApp icon */
