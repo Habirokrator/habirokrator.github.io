@@ -4,6 +4,13 @@
  z-index: -9999;
 }
 
+
+.white {
+	font-family: sans-serif;
+	background-color: #fff;
+}
+
+
 /* Styling for the WhatsApp icon */
 .whatsapp-icon {
 	position: fixed;
