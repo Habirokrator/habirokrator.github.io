@@ -18,6 +18,7 @@
 	z-index: 9999;
 	height: 80px; /* Add this line */
 	width: 80px; /* Add this line */
+	line-height: 80px; /* Add this line */
 }
 
 /* Styling for the WhatsApp icon on hover */
