@@ -1,159 +1,140 @@
-﻿<!DOCTYPE html>
-<html>
-
-  <head>
-    <title>הבירוקרטור</title>
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/11b143c7aa.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-
-  </head>
-
-  <body>
-    <header class="w3-container w3-theme w3-padding" id="myHeader">  
-        <form>
-            <button formaction="https://habirokrator.github.io/" class="w3-panel w3-card-4 w3-btn w3-margin w3-block">
-                <header class="w3-container w3-theme w3-padding" id="myHeader">
-                    <div class="w3-center">
-                        <h1 class="w3-xxxlarge w3-animate-bottom">הבירוקרטור</h1>
-                        <h4>שירות ייעוץ חינמי לביטול דוחות וקנסות</h4>
-                    </div>
-                </header>
-            </button>
-        </form>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הבירוקרטור</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        blue: {
+                            600: '#2563eb'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white">
+        <div class="container mx-auto px-4 py-8 text-center">
+            <a href="https://habirokrator.github.io/" class="block">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">הבירוקרטור</h1>
+                <p class="text-xl text-blue-100">שירות ייעוץ חינמי לביטול דוחות וקנסות</p>
+            </a>
+        </div>
     </header>
-    
-    <!-- WhatsApp icon -->
-    <a href="https://api.whatsapp.com/send?phone=972547572602" target="_blank" rel="noopener" class="whatsapp-icon">
-      <img src="./img/WhatsApp.svg" alt="WhatsApp Icon" style="width: 80px; height: 80px;">
+
+    <!-- Main Content -->
+    <main class="py-12 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <!-- First Row -->
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <a href="https://habirokrator.github.io/parking.html" class="group">
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3zm6 4v10M8 12h8"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">דוחות חניה</h3>
+                    </div>
+                </a>
+                
+                <a href="https://habirokrator.github.io/taabura.html" class="group">
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17h8M8 17v4M16 17v4M3 11l9-9 9 9M5 11v6h14v-6"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">דוחות תעבורה</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Second Row -->
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <a href="https://habirokrator.github.io/cams.html" class="group">
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">מיקומי מצלמות</h3>
+                    </div>
+                </a>
+
+                <a href="https://habirokrator.github.io/agra.html" class="group">
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">כבישי אגרה</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Third Row -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <a href="https://habirokrator.github.io/handicap.html" class="group">
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h2.5M14 14h2.5M8 10h2.5M8 14h2.5M12 20v-6m0 0V8m0 6h4m-4 0H8m4-6a2 2 0 100-4 2 2 0 000 4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">תג נכה</h3>
+                    </div>
+                </a>
+
+                <a href="https://habirokrator.github.io/recommended.html" class="group">
+                    <div class="bg-white rounded-xl shadow-md p-8 text-center transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">מומלצים</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- WhatsApp Button -->
+    <a 
+        href="https://api.whatsapp.com/send?phone=972547572602" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="fixed bottom-6 left-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors duration-300"
+        style="z-index: 1000;"
+    >
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        </svg>
     </a>
-<!--
-    <header class="w3-container w3-theme w3-padding" id="myHeader"> -->
-        <!--
-      <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
-      -->
-      <!--
-      <div class="w3-center">
-        <h1 class="w3-xxxlarge w3-animate-bottom">הבירוקרטור</h1>
-        <h4>שירות ייעוץ חינמי לביטול דוחות וקנסות</h4>
-      </div>
-    </header> -->
-    
-    <!-- WhatsApp icon 
-    <a href="https://api.whatsapp.com/send?phone=972547572602" target="_blank" rel="noopener" class="whatsapp-icon">
-      <img src="./img/WhatsApp.svg" alt="WhatsApp Icon" style="width: 80px; height: 80px;">
-    </a>
--->
 
-    <div class="w3-center blue">
-
-      <div class="w3-row-padding w3-center"> 
-        
-        <div class="w3-half w3-center">
-          <form>
-            <button formaction="https://habirokrator.github.io/parking.html" 
-              class="w3-panel w3-card-4 w3-btn w3-margin w3-block white">
-              <div class="w3-container">
-                <p>
-                  <h3>דוחות חניה</h3>
-                  <i class="fa-solid fa-square-parking rotated w3-margin-bottom w3-text-theme " 
-                    style="font-size:80px"></i>
-                </p>
-              </div>
-            </button>
-          </form>
-        </div>
-
-        <div class="w3-half w3-center">
-          <form>
-            <button formaction="https://habirokrator.github.io/taabura.html" 
-              class="w3-panel w3-card-4 w3-btn w3-margin w3-block white">
-              <div class="w3-container">
-                <p>
-                  <h3>דוחות תעבורה</h3>
-                  <i class="fa fa-car w3-margin-bottom w3-text-theme" 
-                    style="font-size:80px"></i>
-                </p>
-              </div>
-            </button>
-          </form>
-        </div>
-
-      </div>
-
-      <div class="w3-row-padding w3-center"> 
-        <div class="w3-half">
-          <form>
-            <button formaction="https://habirokrator.github.io/cams.html" 
-              class="w3-panel w3-card-4 w3-btn w3-margin w3-block white">
-              <div class="w3-container">
-                <p>
-                  <h3>מיקומי מצלמות</h3>
-                  <i class="fa fa-camera w3-margin-bottom w3-text-theme" style="font-size:80px"></i>
-                </p>
-              </div>
-            </button>
-          </form>
-        </div>
-        <div class="w3-half">
-          <form>
-            <button formaction="https://habirokrator.github.io/agra.html" class="w3-panel w3-card-4 w3-btn w3-margin w3-block white">
-              <div class="w3-container">
-                <p>
-                  <h3>כבישי אגרה</h3>
-                  <i class="fa fa-road w3-margin-bottom w3-text-theme" style="font-size:80px"></i>
-                </p>
-              </div>
-            </button>
-          </form>
-        </div>
-      </div>
-      <div class="w3-row-padding w3-center"> 
-        <div class="w3-half">
-          <form>
-            <button formaction="https://habirokrator.github.io/handicap.html" class="w3-panel w3-card-4 w3-btn w3-margin w3-block white">
-              <div class="w3-container">
-                <p>
-                  <h3>תג נכה</h3>
-                  <i class="fa fa-wheelchair w3-margin-bottom w3-text-theme" style="font-size:80px"></i>
-                </p>
-              </div>
-            </button>
-          </form>
-        </div>
-        <div class="w3-half">
-          <form>
-            <button formaction="https://habirokrator.github.io/recommended.html" class="w3-panel w3-card-4 w3-btn w3-margin w3-block white">
-              <div class="w3-container">
-                <p>
-                  <h3>מומלצים</h3>
-                  <i class="fa-solid fa-people-arrows rotated w3-margin-bottom w3-text-theme " style="font-size:80px"></i>
-                </p>
-              </div>
-            </button>
-          </form>
-        </div>
-      </div>
-
-      <div class="w3-container blue">
-        פרסומות
+    <!-- Google Ads -->
+    <div class="w3-container blue text-center py-8">
+        <div>פרסומות</div>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
-        <!-- Homepage Leaderboard -->
         <ins class="adsbygoogle"
-        style="display:inline-block;width:728px;height:90px"
-        data-ad-client="ca-pub-1234567890123456"
-        data-ad-slot="1234567890"></ins>
+            style="display:inline-block;width:728px;height:90px"
+            data-ad-client="ca-pub-1234567890123456"
+            data-ad-slot="1234567890">
+        </ins>
         <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
+            (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-      </div>
-    
     </div>
-  </div>  
- 
-  </body>
+</body>
 </html>
